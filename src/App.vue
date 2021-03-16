@@ -25,10 +25,10 @@
             顧客主導型サービスを提供する企業として、お客様の会社経営に必要なサービスと情報を提供し続ける企業支援会社を目指します。企業が現在直面している「勝ち残るため」の戦略を提供できる会社として、ホームページをはじめ、各種マーケティングをご提供いたします。
           </p>
           <a href="" class="common-btn mission-btn">ミッション詳細</a>
-        </div>
-        <div class="mission-img">
+          <div class="mission-img">
           <img src="./assets/mission-img.jpg" alt="" />
-        </div>
+        </div>        
+        </div> 
       </div>
       <div class="service">
         <h2 class="service-title section-title">service</h2>
@@ -305,7 +305,7 @@ body {
   position: relative;
   background: #000;
   margin-bottom: 10%;
-  z-index: 999;
+  z-index: 100;
 }
 
 .mission-content {
@@ -483,6 +483,7 @@ body {
   .mission-content {
     padding: 10% 0;
     margin: 0 auto;
+    /* position: fixed; */
   }
   .service-content_inner {
     width: 60%;

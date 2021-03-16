@@ -112,6 +112,7 @@ export default {
     right: 20px;
     transition: 0.4s;
     display: block;
+    z-index: 999;
   }
 
   #hamburger span {
